@@ -11,6 +11,7 @@
 •	Класс HydroStation. Готовая система управления гидроэлектростанцией. Работает только с уровнем воды.
 •	Класс Device. Устройство, которое работает только с интерфейсом IEnergyAdapter и ничего не знает о конкретных типах станций. При запросе энергии адаптер сам выбирает активную станцию и переключается при необходимости.
 ```
-<img width="974" height="927" alt="image" src="https://github.com/user-attachments/assets/b9541e7f-9e84-4498-827c-55fe5db61358" />
+<img width="884" height="787" alt="image" src="https://github.com/user-attachments/assets/50a2ecad-8b3c-4b76-95dc-79a7e88987bd" />
+
 
 
