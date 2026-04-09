@@ -8,5 +8,7 @@
 •	Конкретные команды –  FeedCommand, AddFishCommand, ToggleLightCommand, ToggleFilterCommand, ToggleHeaterCommand. Каждая хранит ссылку на получателя (Aquarium) и предыдущее состояние для отката.
 •	Класс RemoteControl – инициатор (Invoker), управляет выполнением команд, хранит историю выполненных команд (history) и стек отменённых (redoStack), предоставляет методы Undo() и Redo().
 •	Класс Aquarium – получатель (Receiver), содержит состояние аквариума и методы для выполнения действий.
+•	Класс CommandHistory – хранит истрию выполненных команд.
 ```
-<img width="830" height="770" alt="image" src="https://github.com/user-attachments/assets/84f84600-a8a1-4a87-b83b-8d90829ccdf5" />
+<img width="895" height="692" alt="image" src="https://github.com/user-attachments/assets/aaf8e2eb-f008-4596-b907-bb29f04b6219" />
+
